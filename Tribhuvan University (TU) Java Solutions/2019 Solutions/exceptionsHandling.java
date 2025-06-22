@@ -15,7 +15,7 @@ public class ExceptionsHandling {
     public static void divide(int first, int second) throws ArithmeticException {
                 // Manually throw an exception if second is 0
         if (second == 0) {
-            throw new ArithmeticException("Cannot divide by zero.");  // using 'throw'
+                throw new ArithmeticException("Cannot divide by zero.");  // using 'throw'
         }
 
         // Perform division and print the result
