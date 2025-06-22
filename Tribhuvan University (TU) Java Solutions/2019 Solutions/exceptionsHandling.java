@@ -13,7 +13,7 @@ public class ExceptionsHandling {
 
     // Method that declares it may throw ArithmeticException using 'throws'
     public static void divide(int first, int second) throws ArithmeticException {
-        // Manually throw an exception if second is 0
+                // Manually throw an exception if second is 0
         if (second == 0) {
             throw new ArithmeticException("Cannot divide by zero.");  // using 'throw'
         }
